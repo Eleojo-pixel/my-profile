@@ -1,0 +1,126 @@
+
+/*  Selectors Design*/
+body{    background-color: #f7f7f7;
+    color: #27496d;
+    font-size: 16px;
+    font-family: 'Volkhov', serif;
+    font-weight: 100;
+	
+}
+h1,h2{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    color: #007892;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 45px;
+}
+
+h2{
+	color: #63b7af;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+a{
+	transition: 0.3s ease;
+	font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+    font-size: 15px;
+}
+a:hover{
+	color: #9a1f40;
+	font-weight: bold;
+}
+
+/*div{
+	background: white;
+    padding: 50px;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.9);
+    margin: 50px;
+}
+*/
+
+
+
+
+/*Custom design for class and ids */
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+	
+}
+
+@media(max-width: 960px){
+	.container{
+		width: 700px;
+		}
+}
+
+@media(max-width: 720px){
+	.container{
+		width: 500px;
+		}
+}
+
+@media(max-width: 540px){
+	.container{
+		width: 500px;
+		}
+}
+
+.card-white{
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 15px 30px rgba( 0,0,0,0.1);
+	margin: 20px auto; 
+	border-radius: 9px;
+	text-align: center;
+
+}
+.card-white:hover{
+	background: rgba(18, 148, 127,0.1);
+}
+
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background:#12947f ;
+	color:white;
+	padding: 15px 20px;
+	border-radius: 9px;
+}
+.btn-blue:hover {
+	background: #303960;
+	color: white;
+
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 50px;
+	color: #12947f
+}
+.list-inline i:hover{
+	font-size: 50px;
+	color: rgb(18, 18, 18);
+}
+
+
